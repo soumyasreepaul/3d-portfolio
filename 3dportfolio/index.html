@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title> Soumyasree Paul</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Soumyasree Paul's Portfolio" />
+    <meta name="title" property="og:title" content="Portfolio" />
+    <meta property="og:type" content="Website" />
+    <meta name="description" property="og:description" content="Soumyasree Paul's Portfolio" />
+    <meta name="author" content="Soumyasree Paul" />
+
+    <link rel="icon" type="image/gif" href="img/earth.gif" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" integrity="sha512-dLxUelApnYxpLt6K2iomGngnHO83iUvZytA3YjDUCjT0HDOHKXnVYdf3hU4JjM8uEhxf9nD1/ey98U3t2vZ0qQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+    <script src="https://unpkg.com/three@0.128.0/examples/js/loaders/DRACOLoader.js"></script>
+    <script src="./particles.min.js"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href='./css/base.css'>
+
+</head>
+
+<body>
+
+    <div id='loader'>
+        <div id='loader-content'>
+            <div class='row'>
+                <img style="width:80px;" src='img/VZvw.gif'>
+            </div>
+            <div class='row'>
+                <span id='loading-text' style="font-family:Impact, fantasy, Haettenschweiler, 'Arial Narrow Bold', sans-serif; margin-top:1.5%;">&nbsp;Loading...</span>
+            </div>
+        </div>
+    </div>
+
+    <canvas id='bg'></canvas>
+
+    <main>
+        <div style="width:100vw;" class="container-fluid p-0">
+
+            <div class="page page-1">
+                <div id="particles-js"></div>
+                <div id="scroll-down-indicator"></div>
+                <div class="row">
+                    <div class="name-heading mt-sm-0 mt-lg-5 pr-5 mr-2">Soumyasree Paul</div>
+                </div>
+                <div class="row">
+                    <span id="type-writer"></span>
+                </div>
+                <ul class="social-links">
+                    <li class="social"><a target='_blank' href='https://www.linkedin.com/in/soumyasree-paul-80019a272/'><i class="fa fa-linkedin" aria-hidden="true" ></i></a></li>
+                    <li class="social"><a target='_blank' href='https://github.com/soumyasreepaul'><i class="fa fa-github" aria-hidden="true" ></i></a></li>
+                    <li class="social"><a target='_blank' href='https://www.instagram.com/soumyasree_paul/'><i class="fa fa-instagram" aria-hidden="true" ></i></a></li>
+                </ul>
+                <hr id='page-1-line'>
+            </div>
+
+
+            <div class='page page-2 fade'>
+                <div class='row'>
+                    <section id="about" class='page-section'>
+
+                        <div class="section-title">
+                            <center>
+                                <h2>About</h2>
+                            </center>
+                        </div>
+
+
+                        <div class='section-content'>
+                            <center>
+                                <p class='section-heading'> Hello, I'm <span id='name'> &nbsp;Soumyasree Paul </span> </p>
+                                <p> A Web Developer and an Engineer.<br> Love solving problems and building unique solutions.<br> Hobby? Some secrets are better unsaid.</p>
+                            </center>
+                        </div>
+
+
+                        <div class="skills skills-1 pt-5">
+                            <div class='row col-sm-12 col-md-offset-4 col-lg-12 ml-3 align-items-center'>
+                                <img src='./img/java.png'>
+                                <img src='./img/C.png'>
+                                <img src='./img/js.png'>
+                                <img src='./img/html5.png'>
+                                <img src='./img/css3.png'>
+                            </div>
+                        </div>
+
+
+
+                    </section>
+                </div>
+            </div>
+
+
+            <div class='page page-4 fade'>
+                <div class='row'>
+                    <div class='big-resume-container'>
+                        <img class="resume-img-big" src='./img/resume.png' alt='resume'>
+                    </div>
+                    <section id="resume">
+                        <div class="section-title">
+                            <h2>Resume</h2>
+                        </div>
+                        <img class='resume-img' src='./img/resume.png' alt='resume'>
+                        <img class="resume-click-icon" src="./img/click.png">
+                    </section>
+                </div>
+            </div>
+
+
+
+            <div class='page page-3 fade'>
+                <div class='row'>
+                    <section id="about" class='page-section'>
+                        <div class="section-title">
+                            <h2>Projects</h2>
+                        </div>
+
+                        <figure class="icon-cards">
+                            <div class="icon-cards__content" style="border-radius: 30px;">
+                                <div class="icon-cards__item d-flex align-items-center justify-content-center">
+                                    <img src="./img/1.png" height="500px" width="200px" alt="3D Clock" />
+                                </div>
+                                <div class="icon-cards__item d-flex align-items-center justify-content-center">
+                                    <img src="./img/3.png" alt="Chat App" />
+                                </div>
+                                <div class="icon-cards__item d-flex align-items-center justify-content-center">
+                                    <img src="./img/music.png" alt="Music App" />
+                                </div>
+
+                            </div>
+                        </figure>
+
+                    </section>
+                </div>
+            </div>
+
+
+
+
+
+
+
+            <div class='page page-5 fade'>
+                <div class='row'>
+                    <section id="contact">
+                        <div class="section-title">
+                            <h2>Contact</h2>
+                        </div>
+                        <div id="contactForm" class="contact-form">
+                            <div id="contact-box">
+                                <p>I love to have a good talk anytime, feel free to contact me.</p>
+
+                                <div class="contacts ml-4">
+                                    <div><a target="_blank" href='https://www.linkedin.com/in/soumyasree-paul-80019a272/'><i class="fa fa-linkedin fa-lg mr-2" aria-hidden="true" ></i> <span>LinkedIn</span></a></div>
+                                    <div><a target="_blank" href='https://github.com/soumyasreepaul'><i class="fa fa-github fa-lg mr-1" aria-hidden="true" ></i> <span>GitHub</span></a></div>
+                                </div>
+                                <div class='contacts'>
+                                    <div><a target="_blank" href='https://www.facebook.com/soumyasree.paul.568'><i class="fa fa-facebook fa-lg mr-1 ml-4" aria-hidden="true" ></i> <span>Facebook</span></a></div>
+                                    <div><a target="_blank" href='https://www.instagram.com/soumyasree_paul/'><i class="fa fa-instagram fa-lg ml-4 pl-4" aria-hidden="true" ></i> <span>Instagram</span></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <center> <img src="./img/mee.jpeg" height="400" width="300"></center>
+            <br><br><br><br><br>
+            <footer class="copyright">
+                Made with <i class="fa fa-heart-o red pl-2 pr-2" style="color:red;"></i> by Soumyasree Paul
+            </footer>
+
+        </div>
+    </main>
+    <script type="module" src="./main.js"></script>
+</body>
+
+</html>
